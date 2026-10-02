@@ -1,0 +1,92 @@
+======================================================================
+SUMMARY STATISTICS
+======================================================================
+
+Average Performance:
+  baseline            :
+    Standard conditions: 2.8717m
+    Extreme conditions:  4.8744m
+    All noisy:          3.4439m
+
+  gaussian            :
+    Standard conditions: 2.1346m
+    Extreme conditions:  2.8734m
+    All noisy:          2.3457m
+
+  poisson             :
+    Standard conditions: 3.6301m
+    Extreme conditions:  3.3270m
+    All noisy:          3.5435m
+
+  motion_blur         :
+    Standard conditions: 2.8080m
+    Extreme conditions:  4.6622m
+    All noisy:          3.3378m
+
+  spatial             :
+    Standard conditions: 2.7918m
+    Extreme conditions:  4.1153m
+    All noisy:          3.1699m
+
+  mixed               :
+    Standard conditions: 4.0927m
+    Extreme conditions:  3.1036m
+    All noisy:          3.8101m
+
+Best Models:
+  Standard conditions: gaussian (2.1346m)
+  Extreme conditions:  gaussian (2.8734m)
+  Overall (all noisy): gaussian (2.3457m)
+
+Best Model Per Condition:
+  Clean               : baseline             (1.0831m)
+  Gaussian Low        : gaussian             (1.3232m)
+  Gaussian Medium     : gaussian             (1.2698m)
+  Motion Blur         : motion_blur          (1.2089m)
+  Correlated Noise    : baseline             (1.1361m)
+  Realistic Mixed     : poisson              (1.7148m)
+  Gaussian Extreme    : gaussian             (1.4154m)
+  Poisson Extreme     : mixed                (1.8232m)
+
+Improvement Over Baseline:
+  gaussian            :
+    Standard:  +22.6%
+    Extreme:   +44.2%
+    Overall:   +28.7%
+
+  poisson             :
+    Standard:  -75.1%
+    Extreme:   +11.8%
+    Overall:   -50.3%
+
+  motion_blur         :
+    Standard:   -5.3%
+    Extreme:    +2.3%
+    Overall:    -3.1%
+
+  spatial             :
+    Standard:   +0.7%
+    Extreme:   +14.7%
+    Overall:    +4.7%
+
+  mixed               :
+    Standard:  -92.1%
+    Extreme:   +12.7%
+    Overall:   -62.1%
+
+Critical Test (Realistic Mixed Noise):
+  Best: poisson (1.7148m)
+  poisson             : 1.7148m (+69.0%)
+  mixed               : 2.8700m (+48.2%)
+  gaussian            : 4.7724m (+13.8%)
+  spatial             : 5.1269m ( +7.4%)
+  motion_blur         : 5.2450m ( +5.3%)
+  baseline            : 5.5384m ( +0.0%)
+
+Training Stability (Best Epoch):
+  baseline            : Epoch 30/30
+  gaussian            : Epoch 26/30
+  poisson             : Epoch 23/30
+  motion_blur         : Epoch 29/30
+  spatial             : Epoch 29/30
+  mixed               : Epoch 30/30

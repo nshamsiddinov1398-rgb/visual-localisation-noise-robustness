@@ -1,0 +1,16 @@
+========================================================================================================================
+CONSERVATIVE NOISE AUGMENTATION - EVALUATION RESULTS
+========================================================================================================================
+
+Model                | Clean    | G-Low    | G-Med    | M-Blur   | Corr     | Mixed    | G-Ext    | P-Ext   
+------------------------------------------------------------------------------------------------------------------------
+baseline             | 1.0831m | 2.7510m | 2.7884m | 2.1447m | 1.1361m | 5.5384m | 2.9686m | 6.7802m
+gaussian             | 1.3345m | 1.3232m | 1.2698m | 2.0233m | 1.2842m | 4.7724m | 1.4154m | 4.3314m
+poisson              | 4.0017m | 4.1593m | 4.1540m | 4.1218m | 4.0007m | 1.7148m | 4.1282m | 2.5258m
+motion_blur          | 1.9098m | 2.7969m | 2.8307m | 1.2089m | 1.9586m | 5.2450m | 3.0542m | 6.2701m
+spatial              | 1.2971m | 2.7260m | 2.6323m | 2.3072m | 1.1666m | 5.1269m | 2.6034m | 5.6271m
+mixed                | 4.3659m | 4.3957m | 4.3915m | 4.4407m | 4.3655m | 2.8700m | 4.3839m | 1.8232m
+
+Lower is better. Values are translation errors in meters.
+G-Low=Gaussian Low, G-Med=Gaussian Medium, M-Blur=Motion Blur, Corr=Correlated,
+Mixed=Realistic Mixed, G-Ext=Gaussian Extreme, P-Ext=Poisson Extreme
