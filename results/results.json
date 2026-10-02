@@ -1,0 +1,206 @@
+{
+  "baseline": {
+    "clean": {
+      "translation_error": 1.0830507329532078,
+      "rotation_error": 1.6387225321360996
+    },
+    "gaussian_low": {
+      "translation_error": 2.7509803908211845,
+      "rotation_error": 2.50011077608381
+    },
+    "gaussian_medium": {
+      "translation_error": 2.7883610044206892,
+      "rotation_error": 2.553709987231663
+    },
+    "motion_blur_5": {
+      "translation_error": 2.1447173970086233,
+      "rotation_error": 2.4564717088426864
+    },
+    "correlated_noise": {
+      "translation_error": 1.136057846886771,
+      "rotation_error": 1.6779810530798775
+    },
+    "realistic_mixed": {
+      "translation_error": 5.53841312953404,
+      "rotation_error": 4.186046818324498
+    },
+    "gaussian_extreme": {
+      "translation_error": 2.9685684476579937,
+      "rotation_error": 2.6715639454977853
+    },
+    "poisson_extreme": {
+      "translation_error": 6.78022221156529,
+      "rotation_error": 4.082776491982596
+    }
+  },
+  "gaussian": {
+    "clean": {
+      "translation_error": 1.3345196792057583,
+      "rotation_error": 1.8325689724513463
+    },
+    "gaussian_low": {
+      "translation_error": 1.3232055119105748,
+      "rotation_error": 1.6832428216934203
+    },
+    "gaussian_medium": {
+      "translation_error": 1.2697989702224732,
+      "rotation_error": 1.6804822785513742
+    },
+    "motion_blur_5": {
+      "translation_error": 2.0233147655214583,
+      "rotation_error": 2.145280637059893
+    },
+    "correlated_noise": {
+      "translation_error": 1.2842127118791853,
+      "rotation_error": 1.7498659542628696
+    },
+    "realistic_mixed": {
+      "translation_error": 4.77239521571568,
+      "rotation_error": 3.0182439054761616
+    },
+    "gaussian_extreme": {
+      "translation_error": 1.4154063224792481,
+      "rotation_error": 1.8036745241710117
+    },
+    "poisson_extreme": {
+      "translation_error": 4.331372567585537,
+      "rotation_error": 3.6120257105146134
+    }
+  },
+  "poisson": {
+    "clean": {
+      "translation_error": 4.001663528169904,
+      "rotation_error": 3.011305134637015
+    },
+    "gaussian_low": {
+      "translation_error": 4.159313447134835,
+      "rotation_error": 3.0135408878326415
+    },
+    "gaussian_medium": {
+      "translation_error": 4.154049621309553,
+      "rotation_error": 3.0105101312909808
+    },
+    "motion_blur_5": {
+      "translation_error": 4.121793903623309,
+      "rotation_error": 2.850321776526315
+    },
+    "correlated_noise": {
+      "translation_error": 4.0007244450705395,
+      "rotation_error": 3.0115251949855257
+    },
+    "realistic_mixed": {
+      "translation_error": 1.7147851807730539,
+      "rotation_error": 2.1317578962871004
+    },
+    "gaussian_extreme": {
+      "translation_error": 4.128213718959263,
+      "rotation_error": 3.006738601412092
+    },
+    "poisson_extreme": {
+      "translation_error": 2.5258219071796963,
+      "rotation_error": 2.2695342779159544
+    }
+  },
+  "motion_blur": {
+    "clean": {
+      "translation_error": 1.9097851174218314,
+      "rotation_error": 2.2713926485606604
+    },
+    "gaussian_low": {
+      "translation_error": 2.7968506131853377,
+      "rotation_error": 2.4465391635894775
+    },
+    "gaussian_medium": {
+      "translation_error": 2.830685649599348,
+      "rotation_error": 2.4486338206699916
+    },
+    "motion_blur_5": {
+      "translation_error": 1.20886013678142,
+      "rotation_error": 1.626828019959586
+    },
+    "correlated_noise": {
+      "translation_error": 1.9586274215153285,
+      "rotation_error": 2.331254036085946
+    },
+    "realistic_mixed": {
+      "translation_error": 5.244987228938512,
+      "rotation_error": 3.0756563595363073
+    },
+    "gaussian_extreme": {
+      "translation_error": 3.0542375360216414,
+      "rotation_error": 2.4565075738089424
+    },
+    "poisson_extreme": {
+      "translation_error": 6.270064149584089,
+      "rotation_error": 3.7595355033874513
+    }
+  },
+  "spatial": {
+    "clean": {
+      "translation_error": 1.2970725672585623,
+      "rotation_error": 1.7056496109281267
+    },
+    "gaussian_low": {
+      "translation_error": 2.725979198728289,
+      "rotation_error": 2.419501883643014
+    },
+    "gaussian_medium": {
+      "translation_error": 2.632263081414359,
+      "rotation_error": 2.3839063167572023
+    },
+    "motion_blur_5": {
+      "translation_error": 2.307195292200361,
+      "rotation_error": 2.3396519695009506
+    },
+    "correlated_noise": {
+      "translation_error": 1.1665511301585607,
+      "rotation_error": 1.646341071810041
+    },
+    "realistic_mixed": {
+      "translation_error": 5.126919460296631,
+      "rotation_error": 3.2957721301487513
+    },
+    "gaussian_extreme": {
+      "translation_error": 2.6034255027770996,
+      "rotation_error": 2.3604550429752895
+    },
+    "poisson_extreme": {
+      "translation_error": 5.62714512688773,
+      "rotation_error": 2.8121448653084893
+    }
+  },
+  "mixed": {
+    "clean": {
+      "translation_error": 4.365903663635254,
+      "rotation_error": 2.888091788973127
+    },
+    "gaussian_low": {
+      "translation_error": 4.395702396120344,
+      "rotation_error": 2.909139367512294
+    },
+    "gaussian_medium": {
+      "translation_error": 4.391478116171701,
+      "rotation_error": 2.90662248475211
+    },
+    "motion_blur_5": {
+      "translation_error": 4.440693099158151,
+      "rotation_error": 2.9752483299800327
+    },
+    "correlated_noise": {
+      "translation_error": 4.365478447505406,
+      "rotation_error": 2.8880422728402273
+    },
+    "realistic_mixed": {
+      "translation_error": 2.869985614504133,
+      "rotation_error": 2.3823054313659666
+    },
+    "gaussian_extreme": {
+      "translation_error": 4.3839284011295865,
+      "rotation_error": 2.898820400238037
+    },
+    "poisson_extreme": {
+      "translation_error": 1.8232185193470547,
+      "rotation_error": 2.275274198395865
+    }
+  }
+}
