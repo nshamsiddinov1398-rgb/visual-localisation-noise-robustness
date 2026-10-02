@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite the associated paper."
+title: "Visual Localisation Noise Robustness"
+type: software
+authors:
+  - family-names: "Shamsiddinov"
+    given-names: "Nodir"
+    affiliation: "Academic Lyceum of Westminster International University in Tashkent"
+repository-code: "https://github.com/nshamsiddinov1398-rgb/visual-localisation-noise-robustness"
+license: MIT
+keywords:
+  - visual localization
+  - noise augmentation
+  - data augmentation
+  - pose regression
+  - deep learning
+  - robustness
+  - visual odometry
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Shamsiddinov"
+      given-names: "Nodir"
+  title: "Systematic Analysis of Noise Injection Strategies for Robust Visual Localisation: Matching Synthetic Noise to Real-World Sensor Degradation Patterns"
+  journal: "American Journal of Student Research"
+  volume: 4
+  issue: 3
+  start: 451
+  end: 460
+  year: 2026
+  month: 6
+  doi: "10.70251/HYJR2348.43451460"
